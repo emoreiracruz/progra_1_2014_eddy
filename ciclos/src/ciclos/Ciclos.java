@@ -45,8 +45,57 @@ public class Ciclos {
             System.out.println(i);
             
         }
+        
+        /**
+         * Ciclo While
+         * 
+         */
+        
+        while(suma<=cantidad)
+        {
+            System.out.print(suma);
+            System.out.print(" - ");
+            suma=suma+1;
+        }
+        System.out.println("\n");
+        suma=cantidad;
+        while(suma>=0)
+        {
+            System.out.print(suma);
+            System.out.print(" - ");
+            suma=suma-1;
+            
+        }
+        
+        /**
+         * Ciclo do While
+         * 
+         */
+        
+        System.out.print("\n");
+        
+        suma=0;
+        do{
+            System.out.print(suma);
+            System.out.print(" - ");
+            suma=suma+1;
+        }while(suma<=cantidad);
+        
+        System.out.print("\n");
+        suma=cantidad;
+        
+        do{
+            System.out.print(suma);
+            System.out.print(" - ");
+            suma=suma-1;
+            
+        }while(suma>=0);
+        }
+        }
     }
     
     
     
-}
+    
+    
+
