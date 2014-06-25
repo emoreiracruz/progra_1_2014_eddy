@@ -20,7 +20,12 @@ public class PruebaVector {
         arreglos_2 oarreglos_2=new arreglos_2();
         oarreglos_2.cargar();
         oarreglos_2.sumarizarVectores();
+      arreglos_3 oarreglos_3=new arreglos_3();
+        oarreglos_3.cargar();
+        oarreglos_3.calcularPromedios();
     }
+    
+    
 
 }
    
